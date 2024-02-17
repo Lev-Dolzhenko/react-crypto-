@@ -29,7 +29,6 @@ function Navbar() {
           Sign Up
         </Link>
       </div>
-
       {/* Menu icon */}
       <div onClick={handleNav} className="block md:hidden cursor-pointer z-10">
         {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
