@@ -8,6 +8,7 @@ This project is an information site about cryptocurrencies, which provides the f
 - Adaptive site design for easy viewing on different devices.
 - Support for two design themes: light and dark.
 - Getting data about cryptocurrencies via API from CoinGecko website.
+- Search for specific cryptocurrencies
 
 ## Technology and Tools
 
