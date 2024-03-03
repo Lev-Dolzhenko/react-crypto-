@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Lev-Dolzhenko.github.io/react-crypto-",
   "name": "crypto-project",
   "version": "0.1.0",
   "private": true,
@@ -9,6 +10,7 @@
     "axios": "^1.6.7",
     "dompurify": "^3.0.8",
     "firebase": "^10.8.0",
+    "gh-pages": "^6.1.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^5.0.1",
@@ -19,6 +21,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
